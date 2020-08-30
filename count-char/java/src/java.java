@@ -1,12 +1,13 @@
 import java.util.TreeMap;
 
 class CountChar {
+
     public static void main(String[] args) {
-        String stringAsACharSequence = "1234567890000000abcd-ATCG";
-        count_char(stringAsACharSequence);
+        String inputString = "12345678900000000000-Hello-World";
+        countChar(inputString);
     }
 
-    public static void count_char(String tmpString) {
+    public static void countChar(String tmpString) {
         // use TreeMap which is naturally sorted
         TreeMap<Character, Integer> counts = new TreeMap<>();
 
@@ -18,4 +19,5 @@ class CountChar {
             System.out.printf("'%c' %d\n", i, counts.get(i));
         }
     }
+
 }
