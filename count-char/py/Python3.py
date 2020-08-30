@@ -8,9 +8,10 @@ def count_char(tmp_string):
         counts[letter] = counts.get(letter, 0) + 1
 
     for letter in sorted(counts):
-        print(f"'{letter}' {counts[letter]}")
+        percent = counts[letter] / len(tmp_string)
+        print(f"'{letter}' {counts[letter]} {percent:.2f}")
 
 
 if __name__ == '__main__':
-    string_as_a_char_sequence = '1234567890000000abcd-ATCG'
-    count_char(string_as_a_char_sequence)
+    input_string = '12345678900000000000-Hello-World'
+    count_char(input_string)
