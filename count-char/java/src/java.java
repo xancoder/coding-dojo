@@ -16,7 +16,8 @@ class CountChar {
         }
 
         for (char i : counts.keySet()) {
-            System.out.printf("'%c' %d\n", i, counts.get(i));
+            double percent = counts.get(i).floatValue() / tmpString.length();
+            System.out.printf("'%c' %d %.2f\n", i, counts.get(i), percent);
         }
     }
 
