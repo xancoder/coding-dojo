@@ -6,7 +6,7 @@ root = true
 [*]
 charset = utf-8
 end_of_line = lf
-insert_final_newline = false
+insert_final_newline = true
 max_line_length = 120
 indent_style = space
 
@@ -14,18 +14,22 @@ indent_style = space
 indent_size = 4
 tab_width = 4
 
+[*.java]
+indent_size = 4
+tab_width = 4
+
 [*.scala]
 indent_size = 2
 tab_width = 2
 
-[{*.bash,*.sh,*.zsh}]
+[{*.bash, *.sh, *.zsh}]
 indent_size = 2
 tab_width = 2
 
-[{*.har,*.jsb2,*.jsb3,*.json,.babelrc,.eslintrc,.stylelintrc,bowerrc,jest.config}]
+[{*.har, *.jsb2, *.jsb3, *.json, .babelrc, .eslintrc, .stylelintrc, bowerrc, jest.config}]
 indent_size = 2
 tab_width = 2
 
-[{*.r,*.R,*.rprofile}]
+[{*.r, *.R, *.rprofile}]
 indent_size = 2
 tab_width = 2
