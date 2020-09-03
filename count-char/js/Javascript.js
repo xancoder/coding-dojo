@@ -20,8 +20,8 @@ function countChar(tmpString) {
 
     for (let letter in sortObj(counts)) {
         if (!counts.hasOwnProperty(letter)) continue;
-        let tmp = counts[letter] / tmpString.length * 100;
-        console.log("'" + letter + "' " + counts[letter] + " " + tmp);
+        let percent = counts[letter] / tmpString.length;
+        console.log(`'${letter}' ${counts[letter]} ${percent.toFixed(2)}`);
     }
 }
 
