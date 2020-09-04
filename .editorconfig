@@ -14,6 +14,18 @@ indent_style = space
 indent_size = 4
 tab_width = 4
 
+[*.java]
+indent_size = 4
+tab_width = 4
+
+[*.js]
+indent_size = 4
+tab_width = 4
+
+[*.kt]
+indent_size = 4
+tab_width = 4
+
 [*.php]
 indent_size = 4
 tab_width = 4
@@ -22,9 +34,9 @@ tab_width = 4
 indent_size = 4
 tab_width = 4
 
-[*.java]
-indent_size = 4
-tab_width = 4
+[{*.r, *.R, *.rprofile}]
+indent_size = 2
+tab_width = 2
 
 [*.scala]
 indent_size = 2
@@ -35,9 +47,5 @@ indent_size = 2
 tab_width = 2
 
 [{*.har, *.jsb2, *.jsb3, *.json, .babelrc, .eslintrc, .stylelintrc, bowerrc, jest.config}]
-indent_size = 2
-tab_width = 2
-
-[{*.r, *.R, *.rprofile}]
 indent_size = 2
 tab_width = 2
