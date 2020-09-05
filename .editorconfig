@@ -38,6 +38,10 @@ tab_width = 4
 indent_size = 2
 tab_width = 2
 
+[*.rb]
+indent_size = 2
+tab_width = 2
+
 [*.scala]
 indent_size = 2
 tab_width = 2
