@@ -30,6 +30,10 @@ tab_width = 4
 indent_size = 4
 tab_width = 4
 
+[*.pl]
+indent_size = 4
+tab_width = 4
+
 [*.py]
 indent_size = 4
 tab_width = 4
