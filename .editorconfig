@@ -58,6 +58,10 @@ tab_width = 4
 indent_size = 2
 tab_width = 2
 
+[*.ts]
+indent_size = 4
+tab_width = 4
+
 [{*.bash, *.sh, *.zsh}]
 indent_size = 2
 tab_width = 2
