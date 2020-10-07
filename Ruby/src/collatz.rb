@@ -1,7 +1,7 @@
 def collatz_iteration(number)
   steps = 0
   while number != 1 do
-    print "#{number} "
+    print("#{number} ")
     if number % 2 == 0
       number = number / 2
     else
@@ -9,12 +9,12 @@ def collatz_iteration(number)
     end
     steps = steps + 1
   end
-  puts number
+  puts(number)
   steps
 end
 
 def collatz_recursive(number)
-  print "#{number} "
+  print("#{number} ")
   if number == 1
     return
   end
@@ -26,5 +26,5 @@ def collatz_recursive(number)
 end
 
 input_number = 27
-puts collatz_iteration(input_number)
+puts(collatz_iteration(input_number))
 collatz_recursive(input_number)
