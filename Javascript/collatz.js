@@ -10,7 +10,7 @@ function collatz_iteration(number) {
         }
         steps++;
     }
-    process.stdout.write(number + "\n");
+    console.log(number);
     return steps;
 }
 
@@ -26,6 +26,6 @@ function collatz_recursive(number) {
     }
 }
 
-inputNumber = 27;
+const inputNumber = 27;
 console.log(collatz_iteration(inputNumber));
 collatz_recursive(inputNumber);
