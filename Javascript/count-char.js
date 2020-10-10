@@ -25,5 +25,5 @@ function countChar(tmpString) {
     }
 }
 
-stringAsACharSequence = "12345678900000000000-Hello-World";
+const stringAsACharSequence = "12345678900000000000-Hello-World";
 countChar(stringAsACharSequence);
