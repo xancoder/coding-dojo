@@ -6,15 +6,20 @@
     "inlineSources": true,
     "lib": [
       "dom",
-      "es5",
-      "scripthost",
-      "es2015.collection"
+      "es6"
     ]
   },
   "exclude": [
     "node_modules"
   ],
   "files": [
-    "TypeScript.ts"
+    "src/count-char.ts",
+    "src/collatz.ts"
+  ],
+  "types": [
+    "node"
+  ],
+  "typeRoots": [
+    "../node_modules/@types"
   ]
 }
