@@ -1,5 +1,4 @@
 class Collatz {
-
     public static void main(String[] args) {
         int inputNumber = 27;
         System.out.println(collatz_iteration(inputNumber));
