@@ -1,7 +1,6 @@
 import java.util.TreeMap;
 
 class CountChar {
-
     public static void main(String[] args) {
         String inputString = "12345678900000000000-Hello-World";
         countChar(inputString);
@@ -20,5 +19,4 @@ class CountChar {
             System.out.printf("'%c' %d %.2f\n", i, counts.get(i), percent);
         }
     }
-
 }
