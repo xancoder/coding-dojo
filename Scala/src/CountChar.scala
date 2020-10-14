@@ -1,6 +1,6 @@
 import scala.collection.mutable
 
-object Scala {
+object CountChar {
 
   def main(args: Array[String]): Unit = {
     val inputString: String = "12345678900000000000-Hello-World"
