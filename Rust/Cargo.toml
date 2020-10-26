@@ -1,11 +1,15 @@
 [package]
-name = "count_char"
+name = "rust-coding-dojo"
 version = "0.0.1"
 authors = ["Alexander Sommer <xancoder@gmail.com>"]
 edition = "2018"
 
 [[bin]]
 name = "count_char"
-path = "src/Rust.rs"
+path = "src/count_char.rs"
+
+[[bin]]
+name = "collatz"
+path = "src/collatz.rs"
 
 [dependencies]
