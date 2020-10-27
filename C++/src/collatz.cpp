@@ -4,7 +4,7 @@
 
 unsigned int collatz_iteration(uint32_t number);
 
-void collatz_recursive(uint32_t input);
+void collatz_recursive(uint32_t number);
 
 int main() {
     std::uint32_t input = 27;
