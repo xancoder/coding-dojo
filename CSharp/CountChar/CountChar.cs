@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace cs
+namespace CountChar
 {
     internal static class Program
     {
